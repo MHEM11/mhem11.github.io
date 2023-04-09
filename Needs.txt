@@ -1,5 +1,7 @@
 Start
 
+i siden skal der være så man kan trykke på de forskellige sektioner der er og så bliver scrollet ned til dem
+
 
 About
 
