@@ -42,7 +42,6 @@ p {
 }
 
 
-
 .Right-div {
     margin-left: 33.7%;
     padding: 50px 100px;
@@ -54,7 +53,7 @@ p {
     border: none;
 }
 .Header {
-    border-color: rgb(75, 73, 73);;
+    border-color: rgb(75, 73, 73);
     margin-top: 5px;
     border-top: solid 1px;
     padding: 5px;
@@ -69,6 +68,7 @@ p {
     flex-direction: row;
 }
 .Text {
+    padding-left: 30px ;
     display: inline-block;
     width: 50%;
 }
@@ -80,11 +80,84 @@ p {
     margin: 0;
     font-weight: bold;
 }
-.Bulletpoint-text {
-    margin-top: 0;
+.text {
+    margin-top: 1px;
     font-weight: 200;
 }
 .reference {
     color: rgb(211, 211, 211);
     text-decoration: none;
+}
+.Input-box {    
+    width: 42.5%;
+    height: 40px;
+    color: rgb(75, 73, 73);
+    border-color: rgb(75, 73, 73);
+    border: solid 1px;
+    border-radius: 10px;
+    margin-left: 0;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.Besked-box {
+    width: 93%;
+    height: 50%;
+    color: rgb(75, 73, 73);
+    border-color: rgb(75, 73, 73);
+    border: solid 1px;
+    border-radius: 10px;
+    margin-left: 0;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.Sektioner-her {
+    width: 50%;
+    margin: 0;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.Sektioner-her2 {
+    width: 100%;
+    margin: 0;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Sektioner-der {
+    margin: 0;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    height: 300px;
+    
+}
+.text-der {
+    margin-top: 1px;
+    font-weight: 200;
+    display: block;
+    margin-bottom: 95px;
+}
+.text-her {
+    margin-top: 1px;
+    font-weight: 200;
+    display: block;
+    padding-left: 30px;
+    font-size: 18px;
+}
+.Send-knap {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    color: rgb(75, 73, 73);
+    border-color: rgb(75, 73, 73);
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 18px;
+    font-family: Arial;
 }
